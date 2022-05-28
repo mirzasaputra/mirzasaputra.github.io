@@ -1,0 +1,386 @@
+#home {
+    background: #ffffff;
+    color: #000000;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: -75px;
+    z-index: -1;
+    overflow: hidden
+}
+
+.card.profil {
+    border-radius: 20px;
+}
+
+.card.profil .card-body {
+    overflow: hidden;
+    height: 300px;
+}
+
+.card.profil .card-body img {
+    margin-top: -100px;
+}
+
+.top-50 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-1 {
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-2 {
+    position: absolute;
+    left: 10px;
+    bottom: -20px;
+    transform: translate(-50%, -50%)
+}
+
+.bg-3 {
+    position: absolute;
+    top: -50px;
+    right: -150px;
+    transform: rotate(90deg)
+}
+
+@font-face {
+    font-family: italianno;
+    src: url(../fonts/Italianno-Regular.ttf);
+}
+
+.text-italianno {
+    font-family: italianno;
+}
+
+.navbar .navbar-nav .nav-item a.nav-link {
+    padding: 8px 15px;
+}
+
+.navbar .navbar-nav .nav-item a.nav-link:hover, .navbar .navbar-nav .nav-item.active a.nav-link {
+    background: #2023a5;
+    color: #fff;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+
+.bg-primary {
+    background: #2023a5!important;
+}
+
+#about .title {
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#about .bubble {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #2022a538;
+    position: absolute;
+    margin-left: 14%;
+    margin-top: 1%;
+    transform: translate(-50%, -50%);
+}
+
+#service {
+    background: #ffffff;
+}
+
+#service .title {
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#service .bubble {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #f6cc2538;
+    position: absolute;
+    margin-left: 32.3%;
+    margin-top: 1%;
+    transform: translate(-50%, -50%);
+}
+
+#service .card.custom-1 {
+    border: none;
+    border-bottom: 4px solid #2023a5
+}
+
+#service .card.custom-2 {
+    border: none;
+    border-bottom: 4px solid #e2c613
+}
+
+#service .card.custom-3 {
+    border: none;
+    border-bottom: 4px solid #e22813
+}
+
+#footer {
+    background: #2023a5;
+    padding: 40px;
+    text-align: center;
+}
+
+.box-circle {
+    display: inline-block;
+    align-items: center;
+    margin: 10px 20px;
+    color: #b7b7b7;
+}
+
+#skills {
+    background: #ffffff;
+}
+
+#skills .title {
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#skills .bubble {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #92918e38;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 1%;
+    transform: translate(-50%, -50%);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+#skills ul li {
+    list-style: circle;
+}
+
+.custom-progress {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #e0e5e9;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+.custom-progress .progress-bar {
+    background: #e2c613;
+    width: 10%;
+    display: block;
+    height: 6px;
+}
+
+#portofolio .title {
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#portofolio .bubble {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #c31f1d38;
+    position: absolute;
+    margin-left: 30.5%;
+    margin-top: 1%;
+    transform: translate(-50%, -50%);
+}
+
+#resume {
+    background: #ffffff;
+}
+
+#resume .title {
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#resume .bubble {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #c31f1d38;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 1%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar.navbar-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    animation: navbarFade .5s ease-in-out;
+}
+
+@keyframes navbarFade {
+    0% {
+        top: -100px;
+    } 100% {
+        top: 0;
+    }
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+#resume .resume {
+    position: relative;
+}
+
+#resume .resume .line {
+    position: absolute;
+    display: block;
+    height: 110%;
+    border-left: 1px solid #cecece;
+    left: 15%;
+}
+
+#resume .resume .item {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+#resume .resume .item .title {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+
+#resume .resume .item .description {
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #9d9d9d;
+    width: 80%;
+    margin-left: auto;
+}
+
+#resume .resume .item .circle {
+    width: 17px;
+    height: 17px;
+    background: #fff;
+    border: 3px solid #2023a5;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-top: 4px;
+    z-index: 3333;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+    background: #2f32c9;
+    border: 1px solid #cecece;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+#backToTop:hover {
+    background: #2023a5;
+    transition: .3s ease-in-out;
+}
+
+#project .title {
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#project .bubble {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #c3be1d38;
+    position: absolute;
+    margin-left: 32.5%;
+    margin-top: 1%;
+    transform: translate(-50%, -50%);
+}
+
+#project .card {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    border: 1px solid #e4e4e4;
+    border-radius: 15px;
+    transition: .3s ease-in-out;
+}
+
+#project .card-custom {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#project .card-custom h5 {
+    font-weight: 500;
+    color: #434343;
+    height: 45px;
+}
+
+#project .card-custom h5:hover {
+    color: #2023a5;
+}
+
+#project .card:hover {
+    margin-top: -10px;
+    transition: .3s ease-in-out;
+}
+
+.text-primary {
+    color: #2023a5!important;
+}
+
+#contact {
+    background: #ffffff;
+}
+
+#contact .title {
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#contact .bubble {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #1d47c338;
+    position: absolute;
+    margin-left: 32.5%;
+    margin-top: 1%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-primary {
+    background: #2023a5;
+    box-shadow: none!important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background: #131579;
+}
