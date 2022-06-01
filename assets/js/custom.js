@@ -33,6 +33,10 @@ $(function(){
         $('.project-hide').removeClass('d-none')
         $(this).hide()
     })
+
+    $(window).on('load', function(){
+        $('.loader').addClass('hide')
+    })
 })
 
 const navbarFixed = () => {
