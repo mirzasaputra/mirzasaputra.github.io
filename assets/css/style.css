@@ -74,6 +74,10 @@
     background: #2023a5!important;
 }
 
+#about {
+    position: relative;
+}
+
 #about .title {
     font-size: 35px;
     font-family: 'Courier New', Courier, monospace
@@ -141,6 +145,7 @@
 }
 
 #skills {
+    position: relative;
     background: #ffffff;
 }
 
@@ -185,6 +190,11 @@
     height: 6px;
 }
 
+#portofolio {
+    position: relative;
+    overflow: hidden;
+}
+
 #portofolio .title {
     font-size: 35px;
     font-family: 'Courier New', Courier, monospace
@@ -203,6 +213,7 @@
 }
 
 #resume {
+    position: relative;
     background: #ffffff;
 }
 
@@ -393,4 +404,20 @@
     right: 0;
     bottom: 0;
     width: 100%;
+}
+
+#animationBalls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
